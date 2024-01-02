@@ -1,2 +1,2 @@
 #!/bin/bash
-export PYFILE=print('1')
+export PYFILE=#!/usr/bin/python3
