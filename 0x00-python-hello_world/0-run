@@ -1,2 +1,4 @@
 #!/bin/bash
-export PYFILE='#!/usr/bin/python3'
+export PYFILE="$PYFILE"
+./0-run
+
