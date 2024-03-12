@@ -8,4 +8,3 @@ def uppercase(s):
             print(chr(j), end="")
         else:
             print(char, end="")
-    print()
