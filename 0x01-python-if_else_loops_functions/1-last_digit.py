@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = -55540
+number = random.randint(-10000, 10000)
 if number >= 0:
     last_digit = str(number)[-1]
 else:
