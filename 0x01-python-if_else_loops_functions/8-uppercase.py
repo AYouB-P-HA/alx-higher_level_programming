@@ -5,6 +5,7 @@ def uppercase(s):
         i = ord(char)
         if i >= 97 and i < 123:
             j = i - 32
-            print('{}'.format(chr(j)), end=" ")
+            print('{}'.format(chr(j)), end="")
         else:
-            print('{}'.format(char), end=" ")
+            print('{}'.format(char), end="")
+print()
