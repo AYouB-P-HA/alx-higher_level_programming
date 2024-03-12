@@ -9,4 +9,4 @@ def uppercase(s):
             result += chr(j)
         else:
             result += char
-    return print('{}'.format(result), end=" \n")
+    return print('{}'.format(result), end="\n")
