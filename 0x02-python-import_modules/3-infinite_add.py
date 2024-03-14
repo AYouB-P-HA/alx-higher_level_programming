@@ -7,8 +7,7 @@ if __name__ == '__main__':
         print('{}'.format(i))
     else:
         result = 0
-
-        for x in range(0, i+1):
-            num = int(args[x])
+        for x in range(1, i+1):
+            num = int(sys.argv[x])
             result += num
         print('{}'.format(result))
